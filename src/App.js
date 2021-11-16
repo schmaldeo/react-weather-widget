@@ -17,7 +17,6 @@ const App = () => {
                     if (json.current) {
                         setWeather(json);
                         setValidationMessage(null);
-                        console.log(json)
                     } else {
                         setValidationMessage('Invalid city')
                     }
